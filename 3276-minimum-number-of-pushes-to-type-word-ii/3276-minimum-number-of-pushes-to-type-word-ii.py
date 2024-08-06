@@ -1,22 +1,19 @@
 class Solution:
     def minimumPushes(self, word: str) -> int:
             
-        freq = [0] * 26
-        for c in word:
-            freq[ord(c) - ord('a')] += 1
+        # Count letter occurrences
+        char_frequency = Counter(word)
         
-        freq.sort()
+        # Create max heap of frequencies
+        frequency_heap = [-freq for freq in char_frequency.values()]
+        heapq.heapify(frequency_heap)
         
-        totalPushes = 0
-        multiplier = 1
+        total_key_presses = 0
+        key_position = 0
         
-        for i in range(25, -1, -1):
-            if freq[i] == 0:
-                break
-            
-            if (25 - i) % 8 == 0 and i != 25:
-                multiplier += 1
-            
-            totalPushes += freq[i] * multiplier
+        while frequency_heap:
+            current_freq = -heapq.heappop(frequency_heap)
+            total_key_presses += (key_position // 8 + 1) * current_freq
+            key_position += 1
         
-        return totalPushes
+        return total_key_presses
