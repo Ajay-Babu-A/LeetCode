@@ -1,26 +1,30 @@
 class Solution:
     def numberToWords(self, num: int) -> str:
-        if num == 0:
-            return "Zero"
-
-        below_20 = ["", "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Eleven", "Twelve", "Thirteen", "Fourteen", "Fifteen", "Sixteen", "Seventeen", "Eighteen", "Nineteen"]
-        tens = ["", "", "Twenty", "Thirty", "Forty", "Fifty", "Sixty", "Seventy", "Eighty", "Ninety"]
-        thousands = ["", "Thousand", "Million", "Billion"]
-
-        def helper(n):
-            if n == 0:
-                return ""
-            elif n < 20:
-                return below_20[n] + " "
-            elif n < 100:
-                return tens[n // 10] + " " + helper(n % 10)
+        def helper(num):
+        
+            if num < 20:
+                s = belowTwenty[num]
+            elif num < 100:
+                s = tens[num // 10] + ' ' + belowTwenty[num % 10]
+            elif num < 1000:
+                s = helper(num // 100) + ' Hundred ' + helper(num % 100)
+            elif num < 1000000:
+                s = helper(num // 1000) + ' Thousand ' + helper(num % 1000)
+            elif num < 1000000000:
+                s = helper(num // 1000000) + ' Million ' + helper(num % 1000000)
             else:
-                return below_20[n // 100] + " Hundred " + helper(n % 100)
+                s = helper(num // 1000000000) + ' Billion ' + helper(num % 1000000000)
 
-        res = ""
-        for i, unit in enumerate(thousands):
-            if num % 1000 != 0:
-                res = helper(num % 1000) + unit + " " + res
-            num //= 1000
+            return s.strip()
 
-        return res.strip()
+        if num == 0:
+            return 'Zero'
+
+        belowTwenty = ['', 'One', 'Two', 'Three', 'Four', 'Five', 'Six', 'Seven', 'Eight',
+                       'Nine', 'Ten', 'Eleven', 'Twelve','Thirteen', 'Fourteen', 'Fifteen',
+                       'Sixteen', 'Seventeen', 'Eighteen', 'Nineteen']
+
+        tens = ['', 'Ten', 'Twenty', 'Thirty', 'Forty', 'Fifty', 'Sixty', 
+                'Seventy', 'Eighty', 'Ninety']
+
+        return helper(num)
