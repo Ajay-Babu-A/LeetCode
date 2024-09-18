@@ -6,6 +6,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Array
 |  |
 | ------- |
+| [0179-largest-number](https://github.com/Ajay-Babu-A/LeetCode/tree/master/0179-largest-number) |
 | [0539-minimum-time-difference](https://github.com/Ajay-Babu-A/LeetCode/tree/master/0539-minimum-time-difference) |
 | [0906-walking-robot-simulation](https://github.com/Ajay-Babu-A/LeetCode/tree/master/0906-walking-robot-simulation) |
 | [1435-xor-queries-of-a-subarray](https://github.com/Ajay-Babu-A/LeetCode/tree/master/1435-xor-queries-of-a-subarray) |
@@ -24,6 +25,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## String
 |  |
 | ------- |
+| [0179-largest-number](https://github.com/Ajay-Babu-A/LeetCode/tree/master/0179-largest-number) |
 | [0273-integer-to-english-words](https://github.com/Ajay-Babu-A/LeetCode/tree/master/0273-integer-to-english-words) |
 | [0539-minimum-time-difference](https://github.com/Ajay-Babu-A/LeetCode/tree/master/0539-minimum-time-difference) |
 | [0920-uncommon-words-from-two-sentences](https://github.com/Ajay-Babu-A/LeetCode/tree/master/0920-uncommon-words-from-two-sentences) |
@@ -51,6 +53,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Sorting
 |  |
 | ------- |
+| [0179-largest-number](https://github.com/Ajay-Babu-A/LeetCode/tree/master/0179-largest-number) |
 | [0539-minimum-time-difference](https://github.com/Ajay-Babu-A/LeetCode/tree/master/0539-minimum-time-difference) |
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/Ajay-Babu-A/LeetCode/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/Ajay-Babu-A/LeetCode/tree/master/1615-range-sum-of-sorted-subarray-sums) |
@@ -74,6 +77,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Greedy
 |  |
 | ------- |
+| [0179-largest-number](https://github.com/Ajay-Babu-A/LeetCode/tree/master/0179-largest-number) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/Ajay-Babu-A/LeetCode/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 ## Math
 |  |
