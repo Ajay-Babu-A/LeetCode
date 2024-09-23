@@ -21,6 +21,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2411-spiral-matrix-iv](https://github.com/Ajay-Babu-A/LeetCode/tree/master/2411-spiral-matrix-iv) |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/Ajay-Babu-A/LeetCode/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
 | [2727-number-of-senior-citizens](https://github.com/Ajay-Babu-A/LeetCode/tree/master/2727-number-of-senior-citizens) |
+| [2755-extra-characters-in-a-string](https://github.com/Ajay-Babu-A/LeetCode/tree/master/2755-extra-characters-in-a-string) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/Ajay-Babu-A/LeetCode/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 ## String
 |  |
@@ -36,6 +37,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2076-sum-of-digits-of-string-after-convert](https://github.com/Ajay-Babu-A/LeetCode/tree/master/2076-sum-of-digits-of-string-after-convert) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/Ajay-Babu-A/LeetCode/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2727-number-of-senior-citizens](https://github.com/Ajay-Babu-A/LeetCode/tree/master/2727-number-of-senior-citizens) |
+| [2755-extra-characters-in-a-string](https://github.com/Ajay-Babu-A/LeetCode/tree/master/2755-extra-characters-in-a-string) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/Ajay-Babu-A/LeetCode/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 ## Sliding Window
 |  |
@@ -50,6 +52,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/Ajay-Babu-A/LeetCode/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/Ajay-Babu-A/LeetCode/tree/master/1786-count-the-number-of-consistent-strings) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/Ajay-Babu-A/LeetCode/tree/master/2163-kth-distinct-string-in-an-array) |
+| [2755-extra-characters-in-a-string](https://github.com/Ajay-Babu-A/LeetCode/tree/master/2755-extra-characters-in-a-string) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/Ajay-Babu-A/LeetCode/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/Ajay-Babu-A/LeetCode/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 ## Sorting
@@ -159,6 +162,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0241-different-ways-to-add-parentheses](https://github.com/Ajay-Babu-A/LeetCode/tree/master/0241-different-ways-to-add-parentheses) |
+| [2755-extra-characters-in-a-string](https://github.com/Ajay-Babu-A/LeetCode/tree/master/2755-extra-characters-in-a-string) |
 ## Memoization
 |  |
 | ------- |
@@ -180,4 +184,5 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0386-lexicographical-numbers](https://github.com/Ajay-Babu-A/LeetCode/tree/master/0386-lexicographical-numbers) |
 | [0440-k-th-smallest-in-lexicographical-order](https://github.com/Ajay-Babu-A/LeetCode/tree/master/0440-k-th-smallest-in-lexicographical-order) |
+| [2755-extra-characters-in-a-string](https://github.com/Ajay-Babu-A/LeetCode/tree/master/2755-extra-characters-in-a-string) |
 <!---LeetCode Topics End-->
